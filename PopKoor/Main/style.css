@@ -1,0 +1,226 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.Menu {
+    box-shadow: 0px 10px 90px rgb(173, 173, 173);
+    z-index: 100;
+    width: 100%;
+    height: 110px;
+    background-color: rgb(247, 247, 247);
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+
+.MenuPos {
+    position:relative;
+    right: 50%;
+}
+
+
+.Bannervlag {
+    transform: translate(-50%);
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    width: 380px;
+}
+
+.GitHubLogo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 97%;
+    top: 30%;
+    transition: all .5s;
+}
+
+.MailBannerLogo {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 97%;
+    top: 30%;
+    transition: all .7s;
+}
+
+.MenuLogo {
+    position: absolute;
+    width: 300px;
+    height: 102.5px;
+    top: 3%;
+    transition: all .5s;
+    border-radius: 45px;
+}
+
+/*  (END) */
+
+.UnderLine {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(39, 39, 39);
+    left: 0;
+    top: 92%;
+    position:absolute;
+}
+
+.DesignedBMKBANNER {
+    position: absolute;
+    top: 80%;
+    left: 89%;
+    color: rgb(158, 158, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18.5px;
+}
+
+.NeemContactop {
+    position: absolute;
+    text-align: center;
+    width: 1000px;
+    height: 150px;
+    transform: translate(-50%, -50%);
+    top: 65%;
+    left: 50%;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+    display:grid;
+}
+
+.BannerNeemContactopMail {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(158, 158, 158);
+    font-size: 25px;
+    font-weight: bold;
+    transition: all .25s;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
+.BannerNeemContactopMail:hover {
+    color: rgb(201, 201, 201);
+    font-size: 30px;
+}
+
+.BannerNeemContactopTelefoonisch {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(146, 146, 146);
+    font-size: 25px;
+    font-weight: bold;
+    transition: all .25s;
+    background-color: rgba(0, 0, 0, 0);
+    border-style: none;
+}
+
+.BannerNeemContactopTelefoonisch:hover {
+    color: rgb(201, 201, 201);
+    font-size: 30px;
+}
+
+.FaceBookLinkUnderLine {
+    position: absolute;
+    top:86.3%;
+    left: 15.8%;
+    color: rgb(158, 158, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:900;
+    font-size: 17px;
+}
+
+.cr {
+    
+    position: absolute;
+    top: 80%;
+    left: 1%;
+    color: rgb(158, 158, 158);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 18.5px;
+}
+
+.FacebookLogo {
+    opacity: .9;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 95%;
+    top: 15%;
+    transition: all .5s;
+    border-radius: 40px;
+}
+
+.FacebookLogo:hover {
+    border-radius: 20px;
+}
+
+/* MainBody (BODY) */
+
+.MainBody {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 2000px;
+    height: 1000px;
+    background-color: rgba(192, 192, 192, 0.459);
+    border-radius: 15px;
+    z-index: -100;
+}
+
+/* Homelogo (MENU) */
+.Homelogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 52%;
+    top: 15%;
+    transition: all .30s;
+}
+
+.Homelogo:hover {
+    top: 5%;
+}
+
+/* NieuwsLogo (MENU) */
+.NieuwsLogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 56%;
+    top: 15%;
+    transition: all .30s;
+}
+
+.NieuwsLogo:hover {
+    top: 5%;
+}
+
+/* ContactLogo (MENU) */
+.ContactLogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 60%;
+    top: 15%;
+    transition: all .30s;
+}
+
+.ContactLogo:hover {
+    top: 5%;
+}
+
+/* InformatieLogo (MENU) */
+.InformatieLogo {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 64%;
+    top: 15%;
+    transition: all .30s;
+}
+
+.InformatieLogo:hover {
+    top: 5%;
+}
